@@ -1,0 +1,96 @@
+{
+  "name": {
+    "en": "Youtube",
+    "fr": "Youtube"
+  },
+  "category": "Information",
+  "description": {
+    "en": "This is a youtube app.",
+    "fr": "Ceci est une application youtube."
+  },
+  "iconName": "https://img.icons8.com/bubbles/200/000000/youtube-squared.png",
+  "thumbnail": "https://img.icons8.com/bubbles/200/000000/youtube-squared.png",
+  "formFields": [
+    {
+      "name": "Name",
+      "label": "Name",
+      "type": "text",
+      "component": "VTextField",
+      "model": "youtubeappname",
+      "options": [
+        "Youtube app"
+      ]
+    },
+    {
+      "name": "youtubeurl",
+      "label": "Youtube URL",
+      "type": "text",
+      "component": "VTextField",
+      "model": "youtubeurl",
+      "options": [
+        "https://www.youtube.com/watch?v=IyBq4AdBKJI"
+      ]
+    },
+    {
+      "name": "maxduration",
+      "label": "Max Duration in Seconds (0 to ignore this parameter)",
+      "type": "text",
+      "component": "VTextField",
+      "model": "maxduration",
+      "options": [
+        "0"
+      ]
+    },
+    {
+      "name": "mute",
+      "label": "Mute Audio",
+      "type": "select",
+      "component": "VSelect",
+      "model": "mute",
+      "options": [
+        {
+          "text": "No",
+          "value": "0"
+        },
+        {
+          "text": "Yes",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "subtitles",
+      "label": "Display Subtitles",
+      "type": "select",
+      "component": "VSelect",
+      "model": "subtitles",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "1"
+        },
+        {
+          "text": "No",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "loop",
+      "label": "Loop Video",
+      "type": "select",
+      "component": "VSelect",
+      "model": "loop",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "1"
+        },
+        {
+          "text": "No",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}
